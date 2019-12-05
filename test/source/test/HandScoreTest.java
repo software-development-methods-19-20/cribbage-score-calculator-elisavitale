@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class HandScoreTest {
 
     void checkScore(int expectedScore, String givenHand) {
-        assertEquals(expectedScore, new Hand(givenHand).score());
+        assertEquals(expectedScore, new Hand(givenHand).countHandScore());
     }
 
     @Test
